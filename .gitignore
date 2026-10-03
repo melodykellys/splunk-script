@@ -1,0 +1,25 @@
+sur.txt
+venv/
+.venv/
+__pycache__/
+*.pyc
+script.py
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python tooling and generated files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+htmlcov/
+.coverage
+
+# Editor and operating-system files
+.DS_Store
+.idea/
