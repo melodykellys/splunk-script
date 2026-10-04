@@ -15,7 +15,7 @@ headers = {
 # 2. Simulate a log entry (Imagine your custom tool generated this)
 log_payload = {
     "time": time.time(),                # Current epoch timestamp
-    "host": "kellys-desktop",      # Where the log came from ( Make sure this is a valid hostname or OS)
+    "host": "test-desktop",      # Where the log came from ( Make sure this is a valid hostname or OS)
     "source": "my_custom_python_tool", # Script name ( You can change this to your actual script name )
     "sourcetype": "_json",              # Telling Splunk to parse it cleanly as JSON
     "event": {                          # The actual log body
