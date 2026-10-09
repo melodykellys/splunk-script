@@ -67,3 +67,5 @@ appropriate timeouts, error handling, and tests.
 ## License
 
 This project is distributed under the MIT License. See [LICENSE](LICENSE).
+
+## Happy Hacking
